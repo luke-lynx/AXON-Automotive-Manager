@@ -235,12 +235,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Project Purpose
 
-AXON nasceu de uma necessidade real. Como técnico especializado em serviços mecânicos e elétricos, enfrentei diariamente os gargalos de uma gestão manual ineficiente. Em vez de aceitar esses problemas, decidi construir uma solução que:
+AXON was born from a real necessity. As a technician specialized in mechanical and electrical services, I faced daily the bottlenecks of inefficient manual management. Rather than accept these problems, I decided to build a solution that:
 
-- **Economiza tempo**: Menos tempo criando documentos, mais tempo solucionando problemas veiculares
-- **Aumenta profissionalismo**: Clientes recebem documentos estruturados e bem formatados
-- **Escala eficiência**: Uma ferramenta profissional em vez de soluções fragmentadas
-- **Demonstra expertise**: Projeto de portfólio que reflete o ciclo completo de desenvolvimento de software
+- **Saves time**: Less time creating documents, more time solving vehicle problems
+- **Increases professionalism**: Clients receive structured and well-formatted documents
+- **Scales efficiency**: One professional tool instead of fragmented solutions
+- **Demonstrates expertise**: Portfolio project that reflects the complete software development lifecycle
 
 ---
 
