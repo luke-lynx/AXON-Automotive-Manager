@@ -2,7 +2,7 @@
 
 <div align="center">
 <p align="center">
-  <img src="./assets/AXON-Automotive-Manager-icon.png" width="400" alt="Axon Logo com Fundo"/>
+  <img src="./assets/AXON-Automotive-Manager-image.png" width="400" alt="Axon Logo com Fundo"/>
 </p>
 </div>
 
