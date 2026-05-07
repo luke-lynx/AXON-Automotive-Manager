@@ -1,77 +1,269 @@
-# the-machine-manager
-Sistema de gestão para oficinas mecânicas focado em automação de orçamentos e laudos técnicos profissionais.
+# AXON - Automotive Manager
 
-# The Machine Manager v0.1
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Status: In Development](https://img.shields.io/badge/Status-In%20Development-orange.svg)](#)
 
-> "Does a programmer only work at this hour??" — April 23, 2026, 01:24 AM.
-
-## About the Project
-This is my first portfolio project, born from a genuine professional need. As an automotive technician specializing in mechanical and electrical services, I face the daily challenge of managing diagnostics, budgets, and parts orders efficiently and professionally.
-
-The Machine Manager was created to replace slow, manual processes with an automated system built in Python.
-
-## Motivation
-Most management software available on the market is either expensive or too complex for the dynamics of mobile service providers. I needed a tool that provided the professionalism my clients expect without the overhead of heavy software.
-
-This project solves a personal time-management bottleneck: less time creating documents from scratch, more time solving vehicle issues.
-
-## MVP Features (v0.1)
-The current focus is on professional budget generation:
-* Data Collection: Client name, vehicle make, model, license plate, and engine specifications.
-* Cost Calculation: Clear breakdown of labor and parts.
-* Professional Output: Generation of a structured PDF document ready to be sent to clients via email or messaging apps.
-
-## Technology Stack
-* Python: Primary language for its versatility in data handling.
-* Planned Libraries: fpdf2 for document generation and potentially Flask/Django for future web implementation.
-
-## Roadmap
-* Implementation of Technical Reports with photo attachments.
-* Data editing module to correct input errors before PDF generation.
-* Migration to a Web or Mobile interface.
+**Automation platform for automotive workshops focused on professional budget generation and technical reports.**
 
 ---
-**Lucas Barbosa Neumann**
-Automotive Technician | Future Computer Engineer
 
+## 📋 Table of Contents
 
-
-
-=============================================================================================================================================================================================
-
-Español
-
-
-
-# The Machine Manager v0.1 🛠️
-
-> "¿Un programador solo trabaja a esta hora?" — 23/04/2026, 01:24 AM.
-
-## Sobre el Proyecto
-Este es mi primer proyecto de portafolio, pero nace de una necesidad real. Como técnico automotriz especializado en mecánica y electricidad, me enfrento a diario al reto de gestionar diagnósticos, presupuestos y pedidos de piezas de forma ágil y profesional.
-
-**The Machine Manager** surge para sustituir los procesos manuales lentos por una automatización eficiente desarrollada en Python.
-
-## Motivación
-A menudo, los softwares de gestión del mercado son caros o no se adaptan a la dinámica de quienes trabajamos con servicios a domicilio. Necesitaba una herramienta que transmitiera el profesionalismo que mi trabajo exige, sin la complejidad de herramientas pesadas.
-
-Este proyecto resuelve mi principal cuello de botella: pasar menos tiempo redactando documentos y más tiempo solucionando averías en los vehículos.
-
-## Funcionalidades de la Versión 0.1 (MVP)
-Actualmente, el foco es la **generación de presupuestos profesionales**:
-* **Recogida de datos:** Nombre del cliente, marca, modelo, matrícula y motorización.
-* **Cálculo de costes:** Desglose claro de mano de obra y recambios.
-* **Resultado Profesional:** Generación de un documento PDF con diseño estructurado, listo para enviar al cliente por WhatsApp o correo electrónico.
-
-## Stack Tecnológico
-* **Python**: Lenguaje principal por su versatilidade y bibliotecas.
-* **Bibliotecas Planeadas**: `fpdf2` (para la gestión de documentos) y próximamente `Flask/Django` para la versión web.
-
-## Próximos Pasos (Roadmap)
-* [ ] Implementación de Informes Técnicos con fotos del servicio.
-* [ ] Sistema de edición de datos previos a la generación del archivo.
-* [ ] Migración a una interfaz web o móvil.
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Project Roadmap](#project-roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
 ---
+
+## 🎯 Overview
+
+**AXON** is an intelligent management system designed to streamline operations in automotive workshops. It automates the creation of professional budgets and technical reports, eliminating manual, time-consuming document preparation and allowing technicians to focus on their core expertise: vehicle diagnostics and repairs.
+
+Built with Python and designed for scalability, AXON transforms workshop management from a bottleneck into a competitive advantage.
+
+### The Problem
+
+Automotive service providers face a critical inefficiency:
+- ⏱️ Hours spent manually creating budgets and reports
+- 📄 Inconsistent document formatting and professionalism
+- 💼 Complex management software that doesn't fit mobile service workflows
+- 🚗 Loss of focus on actual vehicle diagnostics and repairs
+
+### The Solution
+
+AXON replaces manual processes with an intelligent, automated system that generates structured, professional PDF documents ready for client delivery via email or messaging applications.
+
+---
+
+## ✨ Key Features
+
+### MVP - Version 0.1
+
+#### 📊 Professional Budget Generation
+- **Intelligent Data Collection**: Client information, vehicle specifications (make, model, license plate, engine type)
+- **Dynamic Cost Calculation**: Automatic breakdown of labor hours and parts costs
+- **Professional Output**: Generates structured PDF documents with professional formatting
+- **Client-Ready**: PDFs optimized for email and messaging app delivery
+
+#### 🔧 Core Capabilities
+- Real-time budget calculations
+- Customizable pricing models
+- Client database management
+- Multiple budget templates
+- Professional PDF export
+
+---
+
+## 🛠️ Technology Stack
+
+### Core
+- **Language**: Python 3.8+
+- **Primary Use**: Data handling, automation, document generation
+
+### Libraries (Current & Planned)
+- **fpdf2**: Professional PDF document generation
+- **Flask/Django**: Web interface (planned for v0.2+)
+- **SQLAlchemy**: Database ORM (planned)
+- **Pydantic**: Data validation
+
+### Development Tools
+- Git & GitHub
+- Python Virtual Environment
+- pytest (planned for testing)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+- Virtual environment (recommended)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/luke-lynx/AXON-Automotive-Manager.git
+   cd AXON-Automotive-Manager
+   ```
+
+2. **Create virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run AXON**
+   ```bash
+   python main.py
+   ```
+
+### Configuration
+
+Create a `.env` file in the project root:
+```env
+# Database configuration
+DATABASE_URL=sqlite:///axon.db
+
+# PDF settings
+PDF_FONT_SIZE=11
+PDF_MARGIN=10
+
+# API settings (future)
+API_PORT=5000
+```
+
+---
+
+## 📈 Project Roadmap
+
+### v0.1 (Current)
+- ✅ Professional budget generation
+- ✅ PDF export functionality
+- ✅ Client data collection
+- ✅ Cost calculation engine
+
+### v0.2 (Planned)
+- [ ] Technical Reports with photo attachments
+- [ ] Data validation and error correction module
+- [ ] Client database with edit/update capabilities
+- [ ] Budget templates and customization
+- [ ] Service history tracking
+
+### v0.3 (Planned)
+- [ ] Web interface (Flask/Django)
+- [ ] Multi-user support with authentication
+- [ ] Advanced reporting and analytics
+- [ ] Email integration for direct client delivery
+- [ ] Cloud synchronization
+
+### v1.0 (Future)
+- [ ] Mobile application (iOS/Android)
+- [ ] Real-time collaboration features
+- [ ] Payment integration
+- [ ] Advanced analytics dashboard
+- [ ] AI-powered service recommendations
+
+---
+
+## 💡 Architecture
+
+```
+AXON/
+├── src/
+│   ├── core/              # Core business logic
+│   ├── models/            # Data models
+│   ├── generators/        # PDF and document generation
+│   ├── services/          # Business services
+│   └── utils/             # Utility functions
+├── tests/                 # Test suite
+├── docs/                  # Documentation
+├── requirements.txt       # Project dependencies
+├── .env.example           # Environment variables template
+└── main.py               # Application entry point
+```
+
+---
+
+## 🔄 Workflow Example
+
+```
+Client Request
+    ↓
+Data Input (Client, Vehicle, Services)
+    ↓
+Cost Calculation (Labor + Parts)
+    ↓
+Professional Document Generation (PDF)
+    ↓
+Client Delivery (Email/WhatsApp)
+    ↓
+Document Archive & History
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Development Standards
+- Follow PEP 8 style guidelines
+- Write unit tests for new features
+- Update documentation accordingly
+- Use meaningful commit messages
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
 **Lucas Barbosa Neumann**
-*Técnico de Automoción | Futuro Ingeniero Informático*
+
+- 🔧 Automotive Technician (Specialized in Mechanical & Electrical Systems)
+- 💻 Future Computer Engineer
+- 🚀 Creator of AXON - Automotive Manager
+
+### Contact & Social
+- GitHub: [@luke-lynx](https://github.com/luke-lynx)
+- Email: Available upon request
+
+---
+
+## 🎓 Project Purpose
+
+AXON is my first portfolio project, born from real professional necessity. As an automotive technician, I experienced firsthand the inefficiencies in workshop management. Rather than accept these bottlenecks, I decided to build a solution that:
+
+- **Saves time**: Less document creation, more vehicle repairs
+- **Increases professionalism**: Clients receive structured, branded documents
+- **Scales efficiency**: One professional tool vs. multiple fragmented solutions
+- **Demonstrates expertise**: Portfolio project showcasing full software development lifecycle
+
+---
+
+## ⚡ Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| Language | Python |
+| License | MIT |
+| Status | In Development |
+| Current Version | 0.1 (MVP) |
+| Python Support | 3.8+ |
+
+---
+
+## 🙏 Acknowledgments
+
+- Inspired by real-world workflow optimization
+- Built with focus on professional automotive services
+- Community-driven development approach
+
+---
+
+**"Does a programmer only work at this hour??" — April 23, 2026, 01:24 AM.**
+
+*Making automotive workshop management efficient, professional, and accessible.*
