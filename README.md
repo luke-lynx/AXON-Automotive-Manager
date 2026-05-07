@@ -10,8 +10,8 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Key Features](#key-features)
+- [Overview]([#overview](https://github.com/luke-lynx/AXON-Automotive-Manager#-overview))
+- [Key Features]([#key-features](https://github.com/luke-lynx/AXON-Automotive-Manager#-key-features))
 - [Technology Stack](#technology-stack)
 - [Getting Started](#getting-started)
 - [Project Roadmap](#project-roadmap)
