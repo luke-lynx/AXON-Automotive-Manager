@@ -8,10 +8,10 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview]([#overview](https://github.com/luke-lynx/AXON-Automotive-Manager#-overview))
-- [Key Features]([#key-features](https://github.com/luke-lynx/AXON-Automotive-Manager#-key-features))
+- [Overview](#overview)
+- [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
 - [Getting Started](#getting-started)
 - [Project Roadmap](#project-roadmap)
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 **AXON** is an intelligent management system designed to streamline operations in automotive workshops. It automates the creation of professional budgets and technical reports, eliminating manual, time-consuming document preparation and allowing technicians to focus on their core expertise: vehicle diagnostics and repairs.
 
@@ -30,10 +30,10 @@ Built with Python and designed for scalability, AXON transforms workshop managem
 ### The Problem
 
 Automotive service providers face a critical inefficiency:
-- ⏱️ Hours spent manually creating budgets and reports
-- 📄 Inconsistent document formatting and professionalism
-- 💼 Complex management software that doesn't fit mobile service workflows
-- 🚗 Loss of focus on actual vehicle diagnostics and repairs
+- Hours spent manually creating budgets and reports
+- Inconsistent document formatting and professionalism
+- Complex management software that doesn't fit mobile service workflows
+- Loss of focus on actual vehicle diagnostics and repairs
 
 ### The Solution
 
@@ -41,17 +41,17 @@ AXON replaces manual processes with an intelligent, automated system that genera
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### MVP - Version 0.1
 
-#### 📊 Professional Budget Generation
+#### Professional Budget Generation
 - **Intelligent Data Collection**: Client information, vehicle specifications (make, model, license plate, engine type)
 - **Dynamic Cost Calculation**: Automatic breakdown of labor hours and parts costs
 - **Professional Output**: Generates structured PDF documents with professional formatting
 - **Client-Ready**: PDFs optimized for email and messaging app delivery
 
-#### 🔧 Core Capabilities
+#### Core Capabilities
 - Real-time budget calculations
 - Customizable pricing models
 - Client database management
@@ -60,7 +60,7 @@ AXON replaces manual processes with an intelligent, automated system that genera
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Core
 - **Language**: Python 3.8+
@@ -79,7 +79,7 @@ AXON replaces manual processes with an intelligent, automated system that genera
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -127,7 +127,7 @@ API_PORT=5000
 
 ---
 
-## 📈 Project Roadmap
+## Project Roadmap
 
 ### v0.1 (Current)
 - ✅ Professional budget generation
@@ -158,7 +158,7 @@ API_PORT=5000
 
 ---
 
-## 💡 Architecture
+## Architecture
 
 ```
 AXON/
@@ -177,7 +177,7 @@ AXON/
 
 ---
 
-## 🔄 Workflow Example
+## Workflow
 
 ```
 Client Request
@@ -195,7 +195,7 @@ Document Archive & History
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -213,19 +213,19 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Lucas Barbosa Neumann**
 
-- 🔧 Automotive Technician (Specialized in Mechanical & Electrical Systems)
-- 💻 Future Computer Engineer
-- 🚀 Creator of AXON - Automotive Manager
+- Automotive Technician (Specialized in Mechanical & Electrical Systems)
+- Future Computer Engineer
+- Creator of AXON - Automotive Manager
 
 ### Contact & Social
 - GitHub: [@luke-lynx](https://github.com/luke-lynx)
@@ -233,18 +233,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🎓 Project Purpose
+## Project Purpose
 
-AXON is my first portfolio project, born from real professional necessity. As an automotive technician, I experienced firsthand the inefficiencies in workshop management. Rather than accept these bottlenecks, I decided to build a solution that:
+AXON nasceu de uma necessidade real. Como técnico especializado em serviços mecânicos e elétricos, enfrentei diariamente os gargalos de uma gestão manual ineficiente. Em vez de aceitar esses problemas, decidi construir uma solução que:
 
-- **Saves time**: Less document creation, more vehicle repairs
-- **Increases professionalism**: Clients receive structured, branded documents
-- **Scales efficiency**: One professional tool vs. multiple fragmented solutions
-- **Demonstrates expertise**: Portfolio project showcasing full software development lifecycle
+- **Economiza tempo**: Menos tempo criando documentos, mais tempo solucionando problemas veiculares
+- **Aumenta profissionalismo**: Clientes recebem documentos estruturados e bem formatados
+- **Escala eficiência**: Uma ferramenta profissional em vez de soluções fragmentadas
+- **Demonstra expertise**: Projeto de portfólio que reflete o ciclo completo de desenvolvimento de software
 
 ---
 
-## ⚡ Quick Stats
+## Quick Stats
 
 | Metric | Value |
 |--------|-------|
@@ -256,7 +256,7 @@ AXON is my first portfolio project, born from real professional necessity. As an
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by real-world workflow optimization
 - Built with focus on professional automotive services
