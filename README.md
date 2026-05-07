@@ -1,7 +1,9 @@
 # AXON - Automotive Manager
 
 <div align="center">
-  <img src="assets/logo.svg" alt="AXON Logo" width="300">
+<p align="center">
+  <img src="./assets/AXON-Automotive-Manager-icon.png" width="400" alt="Axon Logo com Fundo"/>
+</p>
 </div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
