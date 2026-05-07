@@ -1,5 +1,9 @@
 # AXON - Automotive Manager
 
+<div align="center">
+  <img src="assets/logo.svg" alt="AXON Logo" width="300">
+</div>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Status: In Development](https://img.shields.io/badge/Status-In%20Development-orange.svg)](#)
@@ -170,6 +174,7 @@ AXON/
 │   └── utils/             # Utility functions
 ├── tests/                 # Test suite
 ├── docs/                  # Documentation
+├── assets/                # Brand assets (logo, etc)
 ├── requirements.txt       # Project dependencies
 ├── .env.example           # Environment variables template
 └── main.py               # Application entry point
@@ -235,20 +240,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Project Purpose
 
-AXON was created from a real operational problem I experienced while working around mechanical and electrical service workflows.
+AXON was born from a real necessity. As a technician specialized in mechanical and electrical services, I faced daily the bottlenecks of inefficient manual management. Rather than accept these problems, I decided to build a solution that:
 
-I noticed how much time was lost with repetitive manual document creation, fragmented organization, and inefficient customer management processes. Instead of accepting those limitations, I decided to design a software solution focused on automation, structure, and usability.
-
-The project was built to:
-
-- Reduce repetitive administrative work
-- Improve workflow organization
-- Generate professional and structured documents
-- Centralize operational information
-- Explore real-world software architecture and automation concepts
-
-Beyond solving a practical problem, AXON also represents my growth as a developer through the complete process of designing, building, and improving a real software project.
-
+- **Saves time**: Less time creating documents, more time solving vehicle problems
+- **Increases professionalism**: Clients receive structured and well-formatted documents
+- **Scales efficiency**: One professional tool instead of fragmented solutions
+- **Demonstrates expertise**: Portfolio project that reflects the complete software development lifecycle
 
 ---
 
