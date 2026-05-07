@@ -241,11 +241,11 @@ I noticed how much time was lost with repetitive manual document creation, fragm
 
 The project was built to:
 
-Reduce repetitive administrative work
-Improve workflow organization
-Generate professional and structured documents
-Centralize operational information
-Explore real-world software architecture and automation concepts
+- Reduce repetitive administrative work
+- Improve workflow organization
+- Generate professional and structured documents
+- Centralize operational information
+- Explore real-world software architecture and automation concepts
 
 Beyond solving a practical problem, AXON also represents my growth as a developer through the complete process of designing, building, and improving a real software project.
 
